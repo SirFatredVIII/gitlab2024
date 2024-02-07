@@ -3,7 +3,8 @@ package gitlab2024;
 public class GitLab {
     
     public static void main(String args) {
-        System.out.println("This is a lesson on Git!");
+        GitLabHelper helper = new GitLabHelper("Name1", "Name2");
+        helper.PrintWelcomeMessage();
     }
     
 }
